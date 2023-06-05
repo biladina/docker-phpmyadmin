@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+  phpmyadmin:
+    environment:
+      VIRTUAL_HOST: pma.lan
+      VIRTUAL_PORT: 80
+    ports:
+      - '8110:80'

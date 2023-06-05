@@ -1,0 +1,10 @@
+version: '3.2'
+
+services:
+  phpmyadmin:
+    environment:
+      VIRTUAL_HOST: 'bappeda2.pemkomedan.go.id'
+      VIRTUAL_PORT: 80
+      VIRTUAL_PATH: /a12345
+      LETSENCRYPT_HOST: bappeda2.pemkomedan.go.id
+      LETSENCRYPT_EMAIL: bappeda_medan@protonmail.ch
